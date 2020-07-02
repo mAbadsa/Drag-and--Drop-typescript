@@ -8,7 +8,7 @@ class ProjectInput {
       "project-input"
     )! as HTMLTemplateElement;
     this.hostElement = document.getElementById("app")! as HTMLDivElement;
-    
+
     const importNode = document.importNode(this.templateElement.content, true);
 
     this.element = importNode.firstElementChild as HTMLFormElement;
